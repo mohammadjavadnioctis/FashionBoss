@@ -41,7 +41,7 @@ const swiperMContainer = ()=>(
     }} 
     navigation={true}
      className="mySwiper">
-    <SwiperSlide><img src="./logos/abercrombie-logo.jfif" alt="abercrombie-logo" /></SwiperSlide>
+    <SwiperSlide><img src="./logos/lcw-logo.png" alt="LCW" /></SwiperSlide>
     <SwiperSlide>Slide 2</SwiperSlide>
     <SwiperSlide>Slide 3</SwiperSlide>
     <SwiperSlide>Slide 4</SwiperSlide>
