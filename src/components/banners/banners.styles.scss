@@ -1,0 +1,21 @@
+.banners{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+    
+    
+    .bannersMain{
+    width: 69%;
+    height:90%;
+    }
+
+    .sidebar{
+        width: 30%;
+        height: 90%;
+        position: sticky;
+        top: -200vh;
+
+    }
+}
