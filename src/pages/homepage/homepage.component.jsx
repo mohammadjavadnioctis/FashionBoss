@@ -12,7 +12,9 @@ const HomePage = ({match}) => (
     <SwiperMContainer />
     <Directory />
     <Banners/>
+    <h1 style={{margin:'5rem'}}>Featured Products</h1>
     <Route exact path={`${match.path}`} component={CollectionsOverview} />
+    <h1 style={{margin:'5rem'}}>Explore</h1>
     <Directory />
   </div>
 );
