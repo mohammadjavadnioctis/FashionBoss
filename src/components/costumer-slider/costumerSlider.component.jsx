@@ -8,6 +8,7 @@ import "swiper/swiper.min.css";
 import "swiper/components/pagination/pagination.min.css"
 import "swiper/components/navigation/navigation.min.css"
 
+
 // import Swiper core and required modules
 import SwiperCore, {
     Autoplay,Pagination,Navigation
@@ -19,7 +20,6 @@ import SwiperCore, {
 
 
 
-// import 'swiper/swiper.css';
 
 
 
@@ -29,27 +29,32 @@ const swiperMContainer = ()=>(
 
     <Swiper
      spaceBetween={30}
-     slidesPerView={5}
+     slidesPerView={8}
      loop={true}
     //  centeredSlides={true}
      autoplay={{
     "delay": 2500,
     "disableOnInteraction": false
     }}
-     pagination={{
-    "clickable": true
-    }} 
+    //  pagination={{
+    // "clickable": true
+    // }} 
     navigation={true}
      className="mySwiper">
-    <SwiperSlide><img src="./logos/lcw-logo.png" alt="LCW" /></SwiperSlide>
-    <SwiperSlide>Slide 2</SwiperSlide>
-    <SwiperSlide>Slide 3</SwiperSlide>
-    <SwiperSlide>Slide 4</SwiperSlide>
-    <SwiperSlide>Slide 5</SwiperSlide>
-    <SwiperSlide>Slide 6</SwiperSlide>
-    <SwiperSlide>Slide 7</SwiperSlide>
-    <SwiperSlide>Slide 8</SwiperSlide>
-    <SwiperSlide>Slide 9</SwiperSlide>
+    <SwiperSlide>
+        <img src='./images/logos/lcw-logo.png' alt="LCW" />
+        <span>LCW</span>
+        </SwiperSlide>
+    <SwiperSlide><img src="./images/logos/20210425_15471619354822_AltinyildizClassics.jfif" alt="" /><span>ALTIN YILDIZ</span></SwiperSlide>
+    <SwiperSlide><img src="./images/logos/20210425_15471619354848_Avva.jfif" alt="" /><span>LCW</span></SwiperSlide>
+    <SwiperSlide><img src="./images/logos/addiddas-logo.jfif" alt="" /><span>ADDİDAS</span></SwiperSlide>
+    <SwiperSlide><img src="./images/logos/Mavi.jfif" alt="" /><span>MAVI</span></SwiperSlide>
+    <SwiperSlide><img src="./images/logos/USPoloAssn.jfif" alt="" /><span>US.POLO</span></SwiperSlide>
+    <SwiperSlide><img src="./images/logos/Stradivarius.jfif" alt="" /><span>STRADI</span></SwiperSlide>
+    <SwiperSlide><img src="./images/logos/nike-logo.jfif" alt="" /><span>NIKE</span></SwiperSlide>
+    <SwiperSlide><img src="./images/logos/20210425_15471619354848_Avva.jfif" alt="" /><span>AVVA</span></SwiperSlide>
+    {/* <SwiperSlide><img src="./logos/puma-logo.jfif" alt="" /><span>LCW</span></SwiperSlide> */}
+    
     </Swiper>
 
 

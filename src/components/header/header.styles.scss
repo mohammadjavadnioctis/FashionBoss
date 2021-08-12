@@ -9,14 +9,16 @@
     height: 100%;
     width: 17%;
     padding: 25px;
-    border-top: 1px solid;
-    border-left: 1px solid;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
   h3{
     display: inline-block;
+  }
+  h3 span{
+    color: orange;
   }
   svg{
     width: 43%;
